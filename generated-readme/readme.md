@@ -11,12 +11,12 @@
     -[Questions] (#questions)
 
     ## Project Description
-    test
+    mctest
     
     ### Licensing 
-    Boost
+    Apache 2.0
     
-    [![Generic badge](https://img.shields.io/badge/License-Boost-green.svg)](https://choosealicense.com/licenses/boost/.)
+    [![Generic badge](https://img.shields.io/badge/License-Apache&ensp;2.0-green.svg)](https://choosealicense.com/licenses/apache-2.0/.)
     
     
 
@@ -27,11 +27,11 @@
     test
 
     ## Contributing
-    undefined
+    mctest
 
     ## Testing
-    test
+    mctest
 
     ## Questions
-    Reach out to the owner of the repo, [test](https://github.com/test) at test.
+    Reach out to the owner of the repo, [mctest](https://github.com/mctest) at mctest.
 

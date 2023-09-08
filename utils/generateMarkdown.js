@@ -57,7 +57,7 @@ function generateMarkdown(data) {
     ${info.usage}
 
     ## Contributing
-    ${info.contribution}
+    ${info.contributing}
 
     ## Testing
     ${info.test}
