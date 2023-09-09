@@ -38,7 +38,7 @@ const questions = [
     //     // PROJECT DESCRIPTION - LINK TO WALKTHROUGH
     {
         type: 'confirm',
-        name: 'confirmDemoLInk',
+        name: 'confirmDemoLink',
         message: 'Would you like to embed a video or gif walkthrough? (Optional)',
         default: false,
     },
@@ -46,7 +46,7 @@ const questions = [
         type: 'input',
         name: 'siteDemoLink',
         message: 'Provide a link to embed the gif or video. YouTube videos cannot be embeded in Github ReadMe files. Use a permalink to a gif or video previously uploaded on Github Repository.',
-        when: ({ confirmDemoLInk }) => confirmDemoLInk,
+        when: ({ confirmDemoLink }) => confirmDemoLink,
         validate: siteDemoLink => {
             if (siteDemoLink) {
             return true;
@@ -56,6 +56,7 @@ const questions = [
             }
     }
     },  
+    
     // installation instructions
     {
         type: 'input',

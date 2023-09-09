@@ -1,5 +1,5 @@
 
-# lskjfd
+# README Generator 
 
 ## Table Of Contents
 -[Description](#project-description)
@@ -15,26 +15,30 @@
 -[Questions](#questions)
 
 ## Project Description
-lkdsfj
+This project is to automatically create a professional README based on the users inputs
 
 ### Licensing 
-Mit
+Apache 2.0
 
-[![Generic badge](https://img.shields.io/badge/License-Mit-green.svg)](https://choosealicense.com/licenses/mit/.)
+[![Generic badge](https://img.shields.io/badge/License-Apache&ensp;2.0-green.svg)](https://choosealicense.com/licenses/apache-2.0/.)
     
+    
+
+### Demo 
+![demo](https://github.com/quezadajaime/Password-Generator/assets/136545874/0ed6e1cd-f19d-4705-9e18-cab19f57b9e9)
     
 
 ## Installation
-    lsdkjf
+    install
 
 ## Usage
-    ldkfjs
+    test
 
 ## Contributing
-    ldfkj
+    test
 
 ## Testing
-    lskdfj
+    test
 
 ## Questions
-Reach out to the owner of the repo, [jlkdsf](https://github.com/jlkdsf) at lkjds.
+Reach out to the owner of the repo, [test](https://github.com/test) at test.

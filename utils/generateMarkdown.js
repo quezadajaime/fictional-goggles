@@ -30,12 +30,27 @@ ${renderLicenseBadge(license)}
     }
 };
 
+   // Creates a section for embedding a video or gif for a Demo
+function renderDemo(demoLink) {
+
+    if (!demoLink) {
+      return "";
+    } else {
+  
+      return `
+### Demo 
+![demo](${demoLink})
+    `
+  }
+  };
+  
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-    const { github, licenseChoice, ...info } = data;
+    const { github, licenseChoice, siteDemoLink, ...info } = data;
 
     return `
-# ${info.projectTitle}
+# ${info.projectTitle} 
 
 ## Table Of Contents
 -[Description](#project-description)
@@ -53,6 +68,7 @@ function generateMarkdown(data) {
 ## Project Description
 ${info.description}
 ${renderLicenseSection(licenseChoice)}
+${renderDemo(siteDemoLink)}
 
 ## Installation
     ${info.installation}
