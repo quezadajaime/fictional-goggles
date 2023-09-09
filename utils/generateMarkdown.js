@@ -3,7 +3,7 @@
 function renderLicenseBadge(license) {
     let badgeLabel = license.replace(" ", "&ensp;");
     return `
-    [![Generic badge](https://img.shields.io/badge/License-${badgeLabel}-green.svg)](${renderLicenseLink(license)})
+[![Generic badge](https://img.shields.io/badge/License-${badgeLabel}-green.svg)](${renderLicenseLink(license)})
     `
 };
 
@@ -23,9 +23,9 @@ function renderLicenseSection(license) {
     } else {
 
         return `
-    ### Licensing 
-    ${license}
-    ${renderLicenseBadge(license)}
+### Licensing 
+${license}
+${renderLicenseBadge(license)}
     `
     }
 };
@@ -35,36 +35,39 @@ function generateMarkdown(data) {
     const { github, licenseChoice, ...info } = data;
 
     return `
+# ${info.projectTitle}
 
-    # ${info.projectTitle}
+## Table Of Contents
+-[Description](#project-description)
 
-    ## Table Of Contents
-    -[Description] (#description)
-    -[Installation] (#installation)
-    -[Usage] (#usage)
-    -[Contributing] (#contributing)
-    -[Testing] (#testing)
-    -[Questions] (#questions)
+-[Installation](#installation)
+    
+-[Usage](#usage)
+    
+-[Contributing](#contributing)
+    
+-[Testing](#testing)
+    
+-[Questions](#questions)
 
-    ## Project Description
-    ${info.description}
-    ${renderLicenseSection(licenseChoice)}
+## Project Description
+${info.description}
+${renderLicenseSection(licenseChoice)}
 
-    ## Installation
+## Installation
     ${info.installation}
 
-    ## Usage
+## Usage
     ${info.usage}
 
-    ## Contributing
+## Contributing
     ${info.contributing}
 
-    ## Testing
+## Testing
     ${info.test}
 
-    ## Questions
-    Reach out to the owner of the repo, [${github}](https://github.com/${github}) at ${info.emailAddress}.
-
+## Questions
+Reach out to the owner of the repo, [${github}](https://github.com/${github}) at ${info.emailAddress}.
 `;
 }
 

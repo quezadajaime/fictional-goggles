@@ -35,6 +35,27 @@ const questions = [
         }
 
     },
+    //     // PROJECT DESCRIPTION - LINK TO WALKTHROUGH
+    {
+        type: 'confirm',
+        name: 'confirmDemoLInk',
+        message: 'Would you like to embed a video or gif walkthrough? (Optional)',
+        default: false,
+    },
+    {
+        type: 'input',
+        name: 'siteDemoLink',
+        message: 'Provide a link to embed the gif or video. YouTube videos cannot be embeded in Github ReadMe files. Use a permalink to a gif or video previously uploaded on Github Repository.',
+        when: ({ confirmDemoLInk }) => confirmDemoLInk,
+        validate: siteDemoLink => {
+            if (siteDemoLink) {
+            return true;
+            } else {
+            console.log('You need to enter a link to embed a video or gif walkthrough or demo!');
+            return false;
+            }
+    }
+    },  
     // installation instructions
     {
         type: 'input',
