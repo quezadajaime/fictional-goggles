@@ -1,5 +1,5 @@
 
-# README Generator 
+# lskdjf 
 
 ## Table Of Contents
 -[Description](#project-description)
@@ -15,12 +15,12 @@
 -[Questions](#questions)
 
 ## Project Description
-This project is to automatically create a professional README based on the users inputs
+lkjsdf
 
 ### Licensing 
-Apache 2.0
+Mit
 
-[![Generic badge](https://img.shields.io/badge/License-Apache&ensp;2.0-green.svg)](https://choosealicense.com/licenses/apache-2.0/.)
+[![Generic badge](https://img.shields.io/badge/License-Mit-green.svg)](https://choosealicense.com/licenses/mit/.)
     
     
 
@@ -28,17 +28,21 @@ Apache 2.0
 ![demo](https://github.com/quezadajaime/Password-Generator/assets/136545874/0ed6e1cd-f19d-4705-9e18-cab19f57b9e9)
     
 
+### Deployed website
+[Deployed Link](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+    
+
 ## Installation
-    install
+    sdf
 
 ## Usage
-    test
+    sdf
 
 ## Contributing
-    test
+    ssdf
 
 ## Testing
-    test
+    wef
 
 ## Questions
-Reach out to the owner of the repo, [test](https://github.com/test) at test.
+Reach out to the owner of the repo, [wef](https://github.com/wef) at fsdfe.

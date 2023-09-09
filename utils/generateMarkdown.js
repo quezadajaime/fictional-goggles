@@ -43,11 +43,25 @@ function renderDemo(demoLink) {
     `
   }
   };
+
+     // Creates a section for linking deployed website
+function renderLink(linkDeployed) {
+
+    if (!linkDeployed) {
+      return "";
+    } else {
+  
+      return `
+### Deployed website
+[Deployed Link](${linkDeployed})
+    `
+  }
+  };
   
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-    const { github, licenseChoice, siteDemoLink, ...info } = data;
+    const { github, licenseChoice, siteDemoLink, siteLinkDeployed, ...info } = data;
 
     return `
 # ${info.projectTitle} 
@@ -69,6 +83,7 @@ function generateMarkdown(data) {
 ${info.description}
 ${renderLicenseSection(licenseChoice)}
 ${renderDemo(siteDemoLink)}
+${renderLink(siteLinkDeployed)}
 
 ## Installation
     ${info.installation}

@@ -35,7 +35,7 @@ const questions = [
         }
 
     },
-    //     // PROJECT DESCRIPTION - LINK TO WALKTHROUGH
+  // PROJECT DESCRIPTION - LINK TO WALKTHROUGH
     {
         type: 'confirm',
         name: 'confirmDemoLink',
@@ -56,7 +56,28 @@ const questions = [
             }
     }
     },  
-    
+// link to deployed website 
+    {
+        type: 'confirm',
+        name: 'confirmDeployLink',
+        message: 'Would you like to add a link to the deployed website? (Optional)',
+        default: false,
+    },
+    {
+        type: 'input',
+        name: 'siteLinkDeployed',
+        message: 'Provide a link to the deployed website (include "https://").',
+        when: ({ confirmDeployLink }) => confirmDeployLink,
+        validate: siteLinkDeployed => {
+            if (siteLinkDeployed) {
+            return true;
+            } else {
+            console.log('You need to enter a link to hyperlink the deployed website!');
+            return false;
+            }
+    }
+    },
+
     // installation instructions
     {
         type: 'input',
@@ -71,6 +92,7 @@ const questions = [
             }
         }
     },
+    
     // Project usage
     {
         type: 'input',
