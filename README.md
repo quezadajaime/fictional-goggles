@@ -17,6 +17,10 @@
 ## Project Description
 This project was completed to allow the user to automatically create a professional README based on questions prompted in command-line.
 
+![Untitled_ Sep 9, 2023 1_17 PM (3)](https://github.com/quezadajaime/fictional-goggles/assets/136545874/bef98265-f651-4344-a653-08e1b11655eb)
+
+[Click for fullscreen demo](https://drive.google.com/file/d/1-NFC8O2-IEQYTZqqLECe0uItwRrDMdt2/view)
+
 ### Licensing 
 Mit
 
