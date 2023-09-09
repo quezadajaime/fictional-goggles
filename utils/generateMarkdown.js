@@ -38,7 +38,7 @@ function renderDemo(demoLink) {
     } else {
   
       return `
-### Demo 
+### Gif/Screenshot
 ![demo](${demoLink})
     `
   }

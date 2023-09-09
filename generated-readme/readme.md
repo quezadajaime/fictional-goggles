@@ -24,6 +24,9 @@ Mit
     
     
 
+### Gif/Screenshot 
+![demo](https://github.com/quezadajaime/fictional-goggles/assets/136545874/de740634-5c75-4b45-ba5f-f29ef84a7a39)
+    
 
 ### Deployed website
 [Deployed Link or Github repository](https://github.com/quezadajaime/fictional-goggles.git)
