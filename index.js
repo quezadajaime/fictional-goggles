@@ -56,17 +56,17 @@ const questions = [
             }
     }
     },  
-// link to deployed website 
+// link to deployed website or Github repository 
     {
         type: 'confirm',
         name: 'confirmDeployLink',
-        message: 'Would you like to add a link to the deployed website? (Optional)',
+        message: 'Would you like to add a link to the deployed website or the github repository? (Optional)',
         default: false,
     },
     {
         type: 'input',
         name: 'siteLinkDeployed',
-        message: 'Provide a link to the deployed website (include "https://").',
+        message: 'Provide a link to the deployed website or github repository (include "https://").',
         when: ({ confirmDeployLink }) => confirmDeployLink,
         validate: siteLinkDeployed => {
             if (siteLinkDeployed) {
@@ -92,7 +92,7 @@ const questions = [
             }
         }
     },
-    
+
     // Project usage
     {
         type: 'input',
