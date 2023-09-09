@@ -53,7 +53,7 @@ function renderLink(linkDeployed) {
   
       return `
 ### Deployed website
-[Deployed Link](${linkDeployed})
+[Deployed Link or Github repository](${linkDeployed})
     `
   }
   };
